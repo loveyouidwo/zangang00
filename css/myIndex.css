@@ -1,1 +1,274 @@
 
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    border:none;
+}
+a{
+    text-decoration: none;
+}
+.box{
+    width:100%;
+    height:auto;
+}
+html,body{
+    background:url("../image/biejin.jpg");
+    background-size: 100% 100%;
+    width:100%;
+    height:1300px;
+}
+/*---头部导航----*/
+.header {
+    width: 1244px;
+    height: 220px;
+    margin:0 auto;
+}
+/*------头部---------*/
+.header .header-top{
+    width:100%;
+    height:90px;
+    position: relative;
+}
+.header .header-top .logo{
+    width:200px;
+    height:90px;
+    border: 1px solid orangered;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 90px;
+    background:rgba(0,0,0,.8);
+    float:left;
+}
+.header .header-top .logo span{
+    font: 30px '黑体';
+    color:#fff;
+}
+.header .header-top .nav{
+    width:1044px;
+    height:90px;
+    background:rgba(100,100,100,.5);
+    float: right;
+}
+.header .header-top .nav ul{
+    width:500px;
+    height:40px;
+    margin-top:25px;
+    float:right;
+    background:rgba(255,255,255,.6);
+    position: relative;
+}
+.header .header-top .nav ul li{
+    float:left;
+    margin-left:55px;
+    line-height: 45px;
+    cursor:pointer;
+}
+.header .header-top .nav ul li.current{
+    border-bottom: 1px solid orangered;
+}
+.header .header-top .nav ul li a{
+    color:#000000;
+    font: 16px Arial;
+}
+.header .header-top .nav .dom{
+    width:1244px;
+    height:150px;
+    background:#fff;
+    position: absolute;
+    left:0;
+    top:91px;
+    display:none;
+}
+.header .header-top .nav .dom ul{
+    width:100%;
+    height:100%;
+}
+.header .header-top .nav .dom ul li{
+    float:left;
+    width:150px;
+    height:89px;
+    margin-left:80px;
+}
+.header .header-top .nav .dom ul li img{
+    width:150px;
+    height:89px;
+}
+/*------头部---------*/
+/*------文本介绍---------*/
+.header .header-content{
+    width:100%;
+    height:150px;
+    background:rgba(1,1,1,.5);
+}
+.header .header-content .text{
+    width:500px;
+    height:150px;
+    float:left;
+    text-align: center;
+}
+.header .header-content .text .mimi{
+    width:500px;
+    height:50px;
+    line-height: 50px;
+    color:#fff;
+    font-size: 25px;
+    margin-top:20px;
+}
+.header .header-content .text span{
+    width:500px;
+    height:80px;
+    line-height:80px;
+    color:#fff;
+}
+.header .header-content .login{
+    width:600px;
+    height:50px;
+    float:right;
+   margin-top:50px;
+}
+.header .header-content .login ul{
+    width:100%;
+    height:100%;
+}
+.header .header-content .login ul li{
+    width:50px;
+    height:50px;
+    float:left;
+    margin-left:120px;
+    background-color:#ccc;
+    cursor:pointer;
+}
+.header .header-content .login ul li{
+    display: inline-block;
+    border-radius: 50%;
+}
+.header .header-content .login ul li:nth-child(1){
+     background:url("../image/jingling.png") -13px -44px;
+ }
+.header .header-content .login ul li:nth-child(2){
+    background:url("../image/jingling.png") -73px -43px;
+}
+.header .header-content .login ul li:nth-child(3){
+    background:url("../image/jingling.png") -130px -44px;
+}
+.header .header-content .login .tip-text{
+    width:600px;
+    height:29px;
+    margin-top:10px;
+    text-align: center;
+    line-height: 29px;
+    position: relative;
+}
+.header .header-content .login .tip-text .line-left{
+    border-bottom: 2px solid #fff;
+    display: block;
+    position: absolute;
+    top:14px;
+    left:145px;
+    width:65px;
+}
+.header .header-content .login .tip-text .text{
+    width:200px;
+    height:29px;
+    position: absolute;
+    top:0;
+    left:200px;
+    color:#fff;
+}
+.header .header-content .login .tip-text .line-right{
+    width:65px;
+    position: absolute;
+    top:14px;
+    left:390px;
+    border-bottom: 2px solid #fff;
+}
+/*------文本介绍---------*/
+/*---头部导航----*/
+
+/*----------内容------------------*/
+.section{
+    width:100%;
+    height:auto;
+    position: relative;
+    margin-top:22px;
+}
+.section .section-left{
+    width:280px;
+    height:800px;
+    position: absolute;
+    top:20px;
+    left:50px;
+}
+.section .section-left .section-left-in{
+    width:280px;
+    height:450px;
+    background-color:#fff;
+}
+.section .section-left .section-left-on{
+    width:280px;
+    height:300px;
+    background-color:#fff;
+    margin-top:50px;
+}
+
+.section .section-center{
+    width:550px;
+    height:800px;
+    background:url("../image/xingkong.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    top:20px;
+    left:400px;
+}
+.section .section-center .box-top{
+    width:100%;
+    height:250px;
+    margin:25px;
+}
+.section .section-center .box-top .my-textarea{
+    width:90%;
+    height:190px;
+    border: 1px solid #000000;
+}
+.section .section-center .my-ul{
+   margin:0 25px;
+    width:500px;
+    height:500px;
+    overflow: hidden;
+}
+.section .section-center .my-ul li{
+    color:lightsteelblue;
+    font-size: 16px;
+    border-bottom:1px dashed orangered;
+    line-height: 44px;
+}
+.section .section-center .my-ul li a{
+    float:right;
+    color:lightsteelblue;
+}
+.section .section-center .box-top .btn{
+    width:50px;
+    height:45px;
+   float:right;
+    margin-right:50px;
+}
+.section .section-right{
+    width:300px;
+    height:800px;
+    position: absolute;
+    top:20px;
+    left:1000px;
+}
+.section .section-right .section-right-in{
+    width:300px;
+    height:300px;
+    background-color:#fff;
+}
+.section .section-right .section-right-on{
+    width:300px;
+    height:450px;
+    background-color:#fff;
+    margin-top:50px;
+}
+/*----------内容------------------*/
