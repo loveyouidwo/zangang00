@@ -193,6 +193,7 @@ html,body{
     position: relative;
     margin-top:22px;
 }
+/*---------音乐播放-------------*/
 .section .section-left{
     width:280px;
     height:800px;
@@ -203,15 +204,51 @@ html,body{
 .section .section-left .section-left-in{
     width:280px;
     height:450px;
-    background-color:#fff;
+    background:rgba(0,0,0,.5);
+}
+.section .section-left .section-left-in p{
+    width:100%;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    color:#fff;
+    font-size:25px;
+    border-bottom: 1px dashed lightblue;
+}
+.section .section-left .section-left-in ul{
+    width:100%;
+    height:400px;
+}
+.section .section-left .section-left-in ul li{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    color:lightblue;
+    font-size:16px;
+    /*border-bottom:1px dashed lightblue;*/
+    text-align:center;
+    cursor:pointer;
 }
 .section .section-left .section-left-on{
     width:280px;
     height:300px;
-    background-color:#fff;
+    background:rgba(0,0,0,.5);
     margin-top:50px;
 }
-
+.section .section-left .section-left-on .music{
+    width:100%;
+    height:250px;
+    color:lightblue;
+    font-size:25px;
+    text-align:center;
+    line-height:300px;
+}
+.section .section-left .section-left-on audio{
+    width:100%;
+    height:50px;
+}
+/*---------音乐播放-------------*/
+/*---------评论-------------*/
 .section .section-center{
     width:550px;
     height:800px;
@@ -229,7 +266,9 @@ html,body{
 .section .section-center .box-top .my-textarea{
     width:90%;
     height:190px;
-    border: 1px solid #000000;
+    border: 1px solid #fff;
+    background:rgba(0,0,0,.5);
+    color:#ccc;
 }
 .section .section-center .my-ul{
    margin:0 25px;
@@ -253,6 +292,8 @@ html,body{
    float:right;
     margin-right:50px;
 }
+/*---------评论-------------*/
+/*---------音乐播放-------------*/
 .section .section-right{
     width:300px;
     height:800px;
@@ -263,12 +304,84 @@ html,body{
 .section .section-right .section-right-in{
     width:300px;
     height:300px;
-    background-color:#fff;
+    background:rgba(0,0,0,.5);
+    text-align:center;
+}
+.section .section-right .section-right-in .my-ge{
+    width:100%;
+    height:50px;
+    line-height:50px;
+    color:orangered;
+    font-size:18px;
+}
+.section .section-right .section-right-in .my-er{
+    width:100%;
+    height:250px;
+}
+.section .section-right .section-right-in .my-er img{
+    width:100%;
+    height:250px;
 }
 .section .section-right .section-right-on{
     width:300px;
     height:450px;
-    background-color:#fff;
+    background:rgba(0,0,0,.5);
     margin-top:50px;
 }
+.section .section-right .section-right-on p{
+    width:100%;
+    height: 50px;
+    color:#fff;
+    font-size:18px;
+    text-align:center;
+    line-height:50px;
+    border-bottom:1px dashed lightblue;
+}
+.section .section-right .section-right-on ul{
+    width:100%;
+    height:400px;
+}
+.section .section-right .section-right-on ul li{
+    width:100%;
+    height:50px;
+    line-height:50px;
+    text-align: center;
+}
+.section .section-right .section-right-on ul li:hover a{
+    color:orangered;
+    background:lightblue;
+}
+.section .section-right .section-right-on ul li a{
+    color:lightblue;
+}
 /*----------内容------------------*/
+/*----------底部------------------*/
+.again{
+    width:100%;
+    height:180px;
+    background:rgba(0,0,0,.5);
+    position: absolute;
+    left:0;
+    top:1140px;
+    text-align: center;
+}
+.again .my-MiYu{
+    width:100%;
+    height:30px;
+    line-height: 30px;
+    color:#fff;
+}
+.again .My-loo{
+    width:100%;
+    height:150px;
+}
+.again .My-loo li{
+    width:100%;
+    height:45px;
+    line-height:45px;
+    color:#fff;
+}
+.again .My-loo li a{
+       color:#fff;
+}
+/*----------底部------------------*/
