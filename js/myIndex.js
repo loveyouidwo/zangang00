@@ -7,6 +7,10 @@
 
     /*评论*/
     comments();
+
+    /*音乐播放*/
+    MyMusic();
+
 })();
 
 /*
@@ -90,7 +94,31 @@
             }
         }
     }
+
+    /*-----------------音乐播放----------------*/
+    function MyMusic(){
+        let myLis = $("section_left_in").getElementsByTagName("li");
+        let MyAudio = document.getElementById("MyAudio");
+        let index = null;
+
+        for(let x=0;x<myLis.length;x++){
+            let zli = myLis[x];
+
+            zli.onclick = function(){
+                document.getElementById("music").innerHTML = zli.innerText;
+                document.getElementById("music").style.color = "red";
+                document.getElementById("music").style.fontSize ="18px";
+                if(index % 7 === 0){
+                    MyAudio.src = "../image/music0"+index+".mp3";
+                    index++;
+                }
+
+            }
+        }
+
+    }
 function $(id){
     return typeof id === "string" ? document.getElementById(id) : null;
 }
+
 
