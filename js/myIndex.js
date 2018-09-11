@@ -108,11 +108,8 @@
                 document.getElementById("music").innerHTML = zli.innerText;
                 document.getElementById("music").style.color = "red";
                 document.getElementById("music").style.fontSize ="18px";
-                if(index % 7 === 0){
                     MyAudio.src = "../image/music0"+index+".mp3";
                     index++;
-                }
-
             }
         }
 
