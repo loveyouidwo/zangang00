@@ -99,7 +99,7 @@
     function MyMusic(){
         let myLis = $("section_left_in").getElementsByTagName("li");
         let MyAudio = document.getElementById("MyAudio");
-        let index = null;
+        let index = 1;
 
         for(let x=0;x<myLis.length;x++){
             let zli = myLis[x];
@@ -109,8 +109,10 @@
                 document.getElementById("music").style.color = "red";
                 document.getElementById("music").style.fontSize ="18px";
                    index === zli;
+                if(index%8 === zli){
                     MyAudio.src = "../image/music0"+index+".mp3";
                     index++;
+                }
           }
         }
 
